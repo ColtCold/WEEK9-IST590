@@ -1,0 +1,303 @@
+
+Showing logs from the last hour ending at 3:00 AM (PDT)
+ 
+2018-05-28 15:07:06.580 PDT
+Compute Engine
+insert
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"35.227.153.151","callerSuppliedUserAgent":"google-cloud-sdk gcloud/202.0.0 command/gcloud.compute.instances.create invocation-id/a84c21de5157…
+2018-05-28 15:07:07.539 PDT
+compute.instances.insert
+{"trace_id":"operation-1527545226520-56d4b569ae5c1-eb8da0a5-66afe391","event_type":"GCE_API_CALL","operation":{"name":"operation-1527545226520-56d4b569ae5c1-eb8da0a5-66afe391","type":"operation","zone":"us-west1-a","id":"904283805678945124"},"event_subtype":"compute.instances.insert","version":"1.2"…
+2018-05-28 15:07:11.153 PDT
+Compute Engine
+insert
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"35.227.153.151","callerSuppliedUserAgent":"google-cloud-sdk gcloud/202.0.0 command/gcloud.compute.instances.create invocation-id/a84c21de5157…
+2018-05-28 15:07:11.243 PDT
+compute.instances.insert
+{"event_type":"GCE_OPERATION_DONE","trace_id":"operation-1527545226520-56d4b569ae5c1-eb8da0a5-66afe391","operation":{"name":"operation-1527545226520-56d4b569ae5c1-eb8da0a5-66afe391","type":"operation","zone":"us-west1-a","id":"904283805678945124"},"event_subtype":"compute.instances.insert","version"…
+2018-05-28 19:26:22.950 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a97:1409:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-28 19:26:23.325 PDT
+compute.instances.stop
+{"user_agent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)","request":{"body":"null","url":"https://www.googleapis.com/compute/v1/projects/week9ist590/zones/us-west1-a/instances/mhn-admin/stop?key=AIzaSyCgxnNGJFOtw9DF3eySks0uRxQ3SiQW2jA"},"ip_address":"","event_tim…
+2018-05-28 19:26:57.738 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a97:1409:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-28 19:26:57.776 PDT
+compute.instances.stop
+{"actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"zone":"us-west1-a","id":"5765412028485321573","name":"mhn-admin","type":"instance"},"event_type":"GCE_OPERATION_DONE","trace_id":"operation-1527560782873-56d4ef5d601a8-1211e5fa-9393cdbf","operation":{"zone":"us-west1-a","id":"26040639239194…
+2018-05-28 19:28:20.396 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a30:1790:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-28 19:28:20.820 PDT
+compute.instances.start
+{"actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"zone":"us-west1-a","id":"5765412028485321573","name":"mhn-admin","type":"instance"},"trace_id":"operation-1527560900333-56d4efcd64dc8-cd66f03a-e99dda49","event_type":"GCE_API_CALL","operation":{"zone":"us-west1-a","id":"5693418781647373355"…
+2018-05-28 19:28:24.505 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a30:1790:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-28 19:28:24.582 PDT
+compute.instances.start
+{"trace_id":"operation-1527560900333-56d4efcd64dc8-cd66f03a-e99dda49","event_type":"GCE_OPERATION_DONE","operation":{"zone":"us-west1-a","id":"5693418781647373355","name":"operation-1527560900333-56d4efcd64dc8-cd66f03a-e99dda49","type":"operation"},"event_subtype":"compute.instances.start","version"…
+2018-05-28 20:32:22.275 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a95:c511:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-28 20:32:22.625 PDT
+compute.instances.stop
+{"trace_id":"operation-1527564742162-56d4fe1d3f651-7a1567c9-a42aaea8","event_type":"GCE_API_CALL","operation":{"zone":"us-west1-a","id":"8073527865672562473","name":"operation-1527564742162-56d4fe1d3f651-7a1567c9-a42aaea8","type":"operation"},"event_subtype":"compute.instances.stop","version":"1.2",…
+2018-05-28 20:32:51.356 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a95:c511:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-28 20:32:51.388 PDT
+compute.instances.stop
+{"event_timestamp_us":"1527564771388854","actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"name":"mhn-admin","type":"instance","zone":"us-west1-a","id":"5765412028485321573"},"trace_id":"operation-1527564742162-56d4fe1d3f651-7a1567c9-a42aaea8","event_type":"GCE_OPERATION_DONE","operation":{…
+2018-05-28 20:38:09.272 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a95:d606:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-28 20:38:09.715 PDT
+compute.instances.start
+{"version":"1.2","user_agent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)","ip_address":"","request":{"body":"null","url":"https://www.googleapis.com/compute/v1/projects/week9ist590/zones/us-west1-a/instances/mhn-admin/start?key=AIzaSyCgxnNGJFOtw9DF3eySks0uRxQ3SiQ…
+2018-05-28 20:38:13.476 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a95:d606:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-28 20:38:13.554 PDT
+compute.instances.start
+{"event_timestamp_us":"1527565093554996","actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"zone":"us-west1-a","id":"5765412028485321573","name":"mhn-admin","type":"instance"},"event_type":"GCE_OPERATION_DONE","trace_id":"operation-1527565089170-56d4ff682e251-4869d50d-3b5506a3","operation":{…
+2018-05-29 00:59:41.895 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a30:278f:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 00:59:42.261 PDT
+compute.instances.stop
+{"event_type":"GCE_API_CALL","trace_id":"operation-1527580781864-56d539dde6441-ef9d37b0-de0d8182","operation":{"zone":"us-west1-a","id":"3878048947303921281","name":"operation-1527580781864-56d539dde6441-ef9d37b0-de0d8182","type":"operation"},"event_subtype":"compute.instances.stop","version":"1.2",…
+2018-05-29 01:00:16.006 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a30:278f:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:00:16.036 PDT
+compute.instances.stop
+{"actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"zone":"us-west1-a","id":"5765412028485321573","name":"mhn-admin","type":"instance"},"event_type":"GCE_OPERATION_DONE","trace_id":"operation-1527580781864-56d539dde6441-ef9d37b0-de0d8182","operation":{"name":"operation-1527580781864-56d539dd…
+2018-05-29 01:01:14.248 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a1d:7a04:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:01:14.581 PDT
+compute.instances.start
+{"user_agent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)","request":{"body":"null","url":"https://www.googleapis.com/compute/v1/projects/week9ist590/zones/us-west1-a/instances/mhn-admin/start?key=AIzaSyCgxnNGJFOtw9DF3eySks0uRxQ3SiQW2jA"},"ip_address":"","event_ti…
+2018-05-29 01:01:18.272 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a1d:7a04:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:01:18.353 PDT
+compute.instances.start
+{"trace_id":"operation-1527580874163-56d53a35ec339-343d38a9-eddce8e2","event_type":"GCE_OPERATION_DONE","operation":{"name":"operation-1527580874163-56d53a35ec339-343d38a9-eddce8e2","type":"operation","zone":"us-west1-a","id":"5652250454963303973"},"event_subtype":"compute.instances.start","version"…
+2018-05-29 01:17:10.257 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a95:d606:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:17:10.595 PDT
+compute.instances.stop
+{"trace_id":"operation-1527581829979-56d53dc575b79-02311dd5-1db81d9d","event_type":"GCE_API_CALL","operation":{"name":"operation-1527581829979-56d53dc575b79-02311dd5-1db81d9d","type":"operation","zone":"us-west1-a","id":"5879785933835907689"},"event_subtype":"compute.instances.stop","version":"1.2",…
+2018-05-29 01:17:47.845 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a6a:3802:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:17:48.099 PDT
+compute.instances.stop
+{"event_type":"GCE_API_CALL","trace_id":"operation-1527581867819-56d53de98bff9-416398c3-d6e87951","operation":{"name":"operation-1527581867819-56d53de98bff9-416398c3-d6e87951","type":"operation","zone":"us-west1-a","id":"8482266597424149060"},"event_subtype":"compute.instances.stop","version":"1.2",…
+2018-05-29 01:17:49.558 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a95:d606:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:17:49.590 PDT
+compute.instances.stop
+{"version":"1.2","event_timestamp_us":"1527581869590071","actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"zone":"us-west1-a","id":"5765412028485321573","name":"mhn-admin","type":"instance"},"trace_id":"operation-1527581829979-56d53dc575b79-02311dd5-1db81d9d","event_type":"GCE_OPERATION_DON…
+2018-05-29 01:17:49.677 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a6a:3802:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:17:49.709 PDT
+compute.instances.stop
+{"trace_id":"operation-1527581867819-56d53de98bff9-416398c3-d6e87951","event_type":"GCE_OPERATION_DONE","operation":{"zone":"us-west1-a","id":"8482266597424149060","name":"operation-1527581867819-56d53de98bff9-416398c3-d6e87951","type":"operation"},"event_subtype":"compute.instances.stop","version":…
+2018-05-29 01:24:58.299 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:acd:8992:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:24:58.588 PDT
+compute.instances.start
+{"user_agent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)","ip_address":"","request":{"url":"https://www.googleapis.com/compute/v1/projects/week9ist590/zones/us-west1-a/instances/mhn-admin/start?key=AIzaSyCgxnNGJFOtw9DF3eySks0uRxQ3SiQW2jA","body":"null"},"event_ti…
+2018-05-29 01:25:04.382 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:acd:8992:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 01:25:04.464 PDT
+compute.instances.start
+{"trace_id":"operation-1527582298264-56d53f840d1c1-ce95d24b-f1b59763","event_type":"GCE_OPERATION_DONE","operation":{"zone":"us-west1-a","id":"7473273875017543861","name":"operation-1527582298264-56d53f840d1c1-ce95d24b-f1b59763","type":"operation"},"event_subtype":"compute.instances.start","version"…
+2018-05-29 02:07:11.939 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a6a:f517:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:07:12.303 PDT
+compute.instances.stop
+{"trace_id":"operation-1527584831906-56d548f4520d1-5679a666-64b3d149","event_type":"GCE_API_CALL","operation":{"zone":"us-west1-a","id":"8621305387559200431","name":"operation-1527584831906-56d548f4520d1-5679a666-64b3d149","type":"operation"},"event_subtype":"compute.instances.stop","version":"1.2",…
+2018-05-29 02:07:44.513 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a6a:f517:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:07:44.545 PDT
+compute.instances.stop
+{"event_timestamp_us":"1527584864545209","actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"name":"mhn-admin","type":"instance","zone":"us-west1-a","id":"5765412028485321573"},"trace_id":"operation-1527584831906-56d548f4520d1-5679a666-64b3d149","event_type":"GCE_OPERATION_DONE","operation":{…
+2018-05-29 02:09:20.145 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:ae1:b82:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"serviceN…
+2018-05-29 02:09:20.598 PDT
+compute.instances.start
+{"user_agent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)","request":{"url":"https://www.googleapis.com/compute/v1/projects/week9ist590/zones/us-west1-a/instances/mhn-admin/start?key=AIzaSyCgxnNGJFOtw9DF3eySks0uRxQ3SiQW2jA","body":"null"},"ip_address":"","event_ti…
+2018-05-29 02:09:24.503 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:ae1:b82:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"serviceN…
+2018-05-29 02:09:24.585 PDT
+compute.instances.start
+{"version":"1.2","event_timestamp_us":"1527584964585644","actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"name":"mhn-admin","type":"instance","zone":"us-west1-a","id":"5765412028485321573"},"event_type":"GCE_OPERATION_DONE","trace_id":"operation-1527584959956-56d5496e70421-92b31ccd-a5852b3…
+2018-05-29 02:12:19.633 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a85:170c:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:12:19.881 PDT
+compute.instances.stop
+{"user_agent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)","ip_address":"","request":{"body":"null","url":"https://www.googleapis.com/compute/v1/projects/week9ist590/zones/us-west1-a/instances/mhn-admin/stop?key=AIzaSyCgxnNGJFOtw9DF3eySks0uRxQ3SiQW2jA"},"event_tim…
+2018-05-29 02:12:59.758 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a85:170c:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:12:59.789 PDT
+compute.instances.stop
+{"event_timestamp_us":"1527585179789580","actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"zone":"us-west1-a","id":"5765412028485321573","name":"mhn-admin","type":"instance"},"trace_id":"operation-1527585139557-56d54a19b8289-0491b997-02cd3e39","event_type":"GCE_OPERATION_DONE","operation":{…
+2018-05-29 02:21:39.166 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a0d:280d:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:21:39.552 PDT
+compute.instances.start
+{"actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"name":"mhn-admin","type":"instance","zone":"us-west1-a","id":"5765412028485321573"},"trace_id":"operation-1527585699067-56d54c2f4f479-e95a08f6-a52f930b","event_type":"GCE_API_CALL","operation":{"name":"operation-1527585699067-56d54c2f4f479-…
+2018-05-29 02:21:43.224 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a0d:280d:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:21:43.307 PDT
+compute.instances.start
+{"actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"name":"mhn-admin","type":"instance","zone":"us-west1-a","id":"5765412028485321573"},"event_type":"GCE_OPERATION_DONE","trace_id":"operation-1527585699067-56d54c2f4f479-e95a08f6-a52f930b","operation":{"zone":"us-west1-a","id":"59440770974262…
+2018-05-29 02:35:54.857 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a22:2989:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:35:55.134 PDT
+compute.instances.stop
+{"actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"name":"mhn-admin","type":"instance","zone":"us-west1-a","id":"5765412028485321573"},"trace_id":"operation-1527586554812-56d54f5f69661-70b09211-33b95234","event_type":"GCE_API_CALL","operation":{"name":"operation-1527586554812-56d54f5f69661-…
+2018-05-29 02:36:28.253 PDT
+Compute Engine
+stop
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a22:2989:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:36:28.288 PDT
+compute.instances.stop
+{"event_timestamp_us":"1527586588288023","actor":{"user":"005658194@coyote.csusb.edu"},"resource":{"name":"mhn-admin","type":"instance","zone":"us-west1-a","id":"5765412028485321573"},"trace_id":"operation-1527586554812-56d54f5f69661-70b09211-33b95234","event_type":"GCE_OPERATION_DONE","operation":{…
+2018-05-29 02:41:56.341 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a95:5101:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:41:56.793 PDT
+compute.instances.start
+{"event_type":"GCE_API_CALL","trace_id":"operation-1527586916227-56d550b8157b8-0238ae6f-8bee23d5","operation":{"zone":"us-west1-a","id":"4662621115869339275","name":"operation-1527586916227-56d550b8157b8-0238ae6f-8bee23d5","type":"operation"},"event_subtype":"compute.instances.start","version":"1.2"…
+2018-05-29 02:41:59.464 PDT
+Compute Engine
+start
+us-west1-a:mhn-admin
+005658194@coyote.csusb.edu
+{"@type":"type.googleapis.com/google.cloud.audit.AuditLog","authenticationInfo":{"principalEmail":"005658194@coyote.csusb.edu"},"requestMetadata":{"callerIp":"2002:a95:5101:0:0:0:0:0","callerSuppliedUserAgent":"Pantheon Google-API-Java-Client Google-HTTP-Java-Client/1.23.0-SNAPSHOT (gzip)"},"service…
+2018-05-29 02:41:59.542 PDT
+compute.instances.start
+{"event_type":"GCE_OPERATION_DONE","trace_id":"operation-1527586916227-56d550b8157b8-0238ae6f-8bee23d5","operation":{"zone":"us-west1-a","id":"4662621115869339275","name":"operation-1527586916227-56d550b8157b8-0238ae6f-8bee23d5","type":"operation"},"event_subtype":"compute.instances.start","version"…
+Expand all | Collapse all
+{
+ insertId: "19i6ihzg212jvms"  
+ jsonPayload: {…}  
+ labels: {…}  
+ logName: "projects/week9ist590/logs/compute.googleapis.com%2Factivity_log"  
+ receiveTimestamp: "2018-05-29T09:41:59.580044821Z"  
+ resource: {…}  
+ severity: "INFO"  
+ timestamp: "2018-05-29T09:41:59.542906Z"  
+}
+No newer entries found matching current filter.  
